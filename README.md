@@ -4,8 +4,8 @@ This is a Geocoding module adapted from Gogeocode. It currently supports Google 
 
 ##Get an API Key
 
-* Google: http://code.google.com/apis/maps/signup.html
-* Yahoo: http://developer.yahoo.com/maps/rest/V1/geocode.html
+* Google: [http://code.google.com/apis/maps/signup.html](http://code.google.com/apis/maps/signup.html)
+* Yahoo: [http://developer.yahoo.com/maps/rest/V1/geocode.html](http://developer.yahoo.com/maps/rest/V1/geocode.html)
 
 ##Getting Started
 
@@ -44,26 +44,26 @@ This will return an array, the contents of $white_house will look something like
 
 	Array
 	(
-	   [response] => Array
-	       (
-	           [status] => 200
-	           [request] => geocode
-	       )
-	
-	   [placemarks] => Array
-	       (
-	           [0] => Array
-	               (
-	                   [accuracy] => 9
-	                   [country] => US
-	                   [administrative_area] => DC
-	                   [sub_administrative_area] => District of Columbia
-	                   [locality] => Washington
-	                   [postal_code] => 20500
-	                   [latitude] => 38.89765
-	                   [longitude] => -77.0356669
-	               )
-	       )
+		[response] => Array
+		(
+			[status] => 200
+			[request] => geocode
+		)
+
+		[placemarks] => Array
+		(
+			[0] => Array
+			(
+				[accuracy] => 9
+				[country] => US
+				[administrative_area] => DC
+				[sub_administrative_area] => District of Columbia
+				[locality] => Washington
+				[postal_code] => 20500
+				[latitude] => 38.89765
+				[longitude] => -77.0356669
+			)
+		)
 	)
 
 ##Definitions
