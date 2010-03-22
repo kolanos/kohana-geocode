@@ -194,7 +194,7 @@ class Geocode_Google extends Geocode
 
 					if (count($postal_codes) > $i)
 					{
-						$ret_val['placemarks'][$i]['postal_code'] = (int) $postal_codes[$i];
+						$ret_val['placemarks'][$i]['postal_code'] = (string) $postal_codes[$i];
 					}
 
 					$ret_val['placemarks'][$i]['latitude']= (double) $latitude;
