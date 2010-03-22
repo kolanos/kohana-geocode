@@ -11,14 +11,14 @@ This is a Geocoding module adapted from Gogeocode. It currently supports Google 
 
 Once you have your API key, copy config/geocode.php to your app directory, and edit it as follows:
 
-> ...
-> return array(
->	'default' => array(
->		'service'	=> '<Google or Yahoo here>',
->		'api_key'	=> '<API key here>',
->	),
-> );
-> ...
+	...
+	return array(
+		'default' => array(
+			'service'	=> '<Google or Yahoo here>',
+			'api_key'	=> '<API key here>',
+		),
+	);
+	...
 
 Now instantiate:
 
@@ -42,30 +42,29 @@ Now geocode an address:
 
 This will return an array, the contents of $white_house will look something like this:
 
-> Array
-> (
->    [response] => Array
->        (
->            [status] => 200
->            [request] => geocode
->        )
->
->    [placemarks] => Array
->        (
->            [0] => Array
->                (
->                    [accuracy] => 9
->                    [country] => US
->                    [administrative_area] => DC
->                    [sub_administrative_area] => District of Columbia
->                    [locality] => Washington
->                    [postal_code] => 20500
->                    [latitude] => 38.89765
->                    [longitude] => -77.0356669
->                )
->
->        )
-> )
+	Array
+	(
+	   [response] => Array
+	       (
+	           [status] => 200
+	           [request] => geocode
+	       )
+	
+	   [placemarks] => Array
+	       (
+	           [0] => Array
+	               (
+	                   [accuracy] => 9
+	                   [country] => US
+	                   [administrative_area] => DC
+	                   [sub_administrative_area] => District of Columbia
+	                   [locality] => Washington
+	                   [postal_code] => 20500
+	                   [latitude] => 38.89765
+	                   [longitude] => -77.0356669
+	               )
+	       )
+	)
 
 ##Definitions
 
